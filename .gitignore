@@ -1,4 +1,8 @@
+# Ignore node_modules directory
 node_modules/
+package-lock.json/
+
+# Ignore environment-specific files
 .env.development
 .env.product
-.env.test
+
